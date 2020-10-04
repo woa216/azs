@@ -44,10 +44,8 @@ width: 60px;
   height: 95vh;
   background-image: url('bg.png');
   background-repeat: no-repeat;
-background-size: 100% 100%;
-/* background-color: white; */
+  background-size: 100% 100%;
   position: relative;
-
 }
 
 .text-container p:nth-child(1)
@@ -74,6 +72,20 @@ background-size: 100% 100%;
   line-height: 30px;
 }
 
+.text-container p
+{
+  line-height: 0;
+  margin: 45px 0 25px;
+}
+
+.text-container
+{
+  position: absolute;
+  left: 13%;
+  top: 42%;
+  transform: translate(-13%, -42%);
+}
+
 @media screen and  (max-width: 352px) {
   .text-container p:nth-child(3)
   {
@@ -95,21 +107,6 @@ background-size: 100% 100%;
   {
     top: 42%;
   }
-
-}
-
-.text-container p
-{
-  line-height: 0;
-  margin: 45px 0 25px;
-}
-
-.text-container
-{
-  position: absolute;
-  left: 13%;
-  top: 42%;
-  transform: translate(-13%, -42%);
 }
 
 
@@ -140,13 +137,13 @@ button:active {
   transform: scale(1.1);
 }
 
-.model{
+/* .model{
   height: 400px;
    position: absolute;
    bottom: 0;
    left: 80%;
    transform: translateX(-70%);
-}
+} */
 
 
 
@@ -225,6 +222,8 @@ h3
     font-family: 'Lobster', cursive;
     color: orange;
 }
+
+
 /* Portfolio CSS */
 .thumbnail {
   padding: 0 0 15px 0;
@@ -280,7 +279,6 @@ color: #fff;
   padding: 0;
   text-align: center;
   background: url('contact.jpg');
-  /* background-color: #a5ecd7; */
   background-size: cover;
   background-position: center;
   font-family: sans-serif;
@@ -332,11 +330,8 @@ form .submit{
   color: #fff;
   font-size: 1.1rem;
   font-weight: bold;
-  /* letter-spacing: 2px; */
   height: 50px;
   width: 20%;
-  /* margin-top: 20px;
-  margin-bottom: 20px; */
   margin: 20px auto;
 }
 
@@ -345,8 +340,6 @@ form .submit{
     width: 60%;
   }
 }
-
-
 
 form .submit:hover{
   background-color: #f08a5d;
@@ -391,8 +384,7 @@ footer p:nth-child(2){
 
 .copyright{
   color: black;
-  /* font-size: 	0.8rem; */
-    font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive;
 }
 
 .social-icons a {
@@ -406,13 +398,9 @@ footer p:nth-child(2){
   border-radius: 50%;
 }
 
-
-
 .social-icons{
   display: inline-flex;
-
 }
-
 
 .social-icons i{
   color: #000000;
@@ -439,17 +427,6 @@ footer p:nth-child(2){
   right: 0;
   transform: translateY(-50%);
 }
-
-/* @media (max-width: 360px) {
-
-  .a-social-b
-  {
-    position: fixed;
-    top: 50%;
-    right: 0.5%;
-    transform: translateY(-50%);
-  }
-} */
 
 .a-social-b a{
   display: flex;
