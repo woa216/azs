@@ -1,4 +1,7 @@
-
+html
+{
+  scroll-behavior: smooth;
+}
 
 /* Navbar CSS */
 .navbar-item
@@ -20,8 +23,9 @@
 
 .navbar
 {
-  background: #fff;
-  padding: 0.01rem 3rem;
+  background: #133b5c;
+  padding: 0rem 3rem;
+
 }
 
 .navbar-brand
@@ -42,7 +46,7 @@ width: 60px;
 {
   width: 100%;
   height: 95vh;
-  background-image: url('bg.png');
+  background-image: url('city.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: relative;
@@ -229,6 +233,7 @@ h3
   padding: 0 0 15px 0;
   border: none;
   border-radius: 0;
+
 }
 
 .thumbnail-img {
@@ -278,7 +283,7 @@ color: #fff;
 {
   padding: 0;
   text-align: center;
-  background: url('contact.jpg');
+  background: url('contact1.jpg');
   background-size: cover;
   background-position: center;
   font-family: sans-serif;
@@ -325,7 +330,7 @@ input
 }
 
 form .submit{
-  background: #505050;
+  background: #efa8e4;
   border-color: transparent;
   color: #fff;
   font-size: 1.1rem;
@@ -342,7 +347,7 @@ form .submit{
 }
 
 form .submit:hover{
-  background-color: #f08a5d;
+  background-color: #f4e04d;
   cursor: pointer;
 }
 
@@ -357,7 +362,7 @@ form .submit:hover{
 footer{
   padding: 7% 15%;
   text-align: center;
-  background: #2f3b59;
+  background: #133b5c;
 
 }
 
@@ -409,7 +414,7 @@ footer p:nth-child(2){
 .social-icons a:hover,
 .a-social-b a:hover
 {
-  background-color: #000000;
+  background-color: #efa8e4;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   transition: all ease 0.5s;
 }
@@ -428,6 +433,7 @@ footer p:nth-child(2){
   transform: translateY(-50%);
 }
 
+
 .a-social-b a{
   display: flex;
   justify-content: center;
@@ -445,4 +451,20 @@ footer p:nth-child(2){
 .a-social-b i{
   color: #2b2b2b;
   font-size: 1.25rem;
+}
+
+.gotopbtn
+{
+position: fixed;
+width: 50px;
+height: 50px;
+background: #7579e7;
+bottom: 40px;
+right: 50px;
+text-decoration: none;
+text-align: center;
+line-height: 50px;
+color: white;
+font-size: 22px;
+border-radius: 100%;
 }
